@@ -1,3 +1,5 @@
+//*Projeto escola: Hildete Santana
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -62,6 +64,7 @@ estru_disciplina;
 void aluno(estru_aluno e_aluno[], int qtdAluno, estru_professor e_professor[], int qtdProfessor, estru_disciplina e_disciplina[], int qtdDisciplina, int cont_alu_disc)
 {
   int opcao_1;
+  printf("Projeto Escola Hildete");
   printf("\nDigite a opção que deseja realizar:\n");
   printf("1 - Incluir aluno\n2 - Excluir aluno\n3 - Atualizar dados de aluno\n4 - Voltar\n");
   scanf("%d", &opcao_1);
@@ -90,6 +93,7 @@ void aluno(estru_aluno e_aluno[], int qtdAluno, estru_professor e_professor[], i
 void professor(estru_aluno e_aluno[], int qtdAluno, estru_professor e_professor[], int qtdProfessor, estru_disciplina e_disciplina[], int qtdDisciplina, int cont_alu_disc)
 {
   int opcao_2;
+  printf("Projeto Escola Hildete");
   printf("\nDigite a opção que deseja realizar:\n");
   printf("1 - Incluir professor\n2 - Excluir professor\n3 - Atualizar dados de professor\n4 - Voltar\n");
   scanf("%d", &opcao_2);
@@ -118,6 +122,7 @@ void professor(estru_aluno e_aluno[], int qtdAluno, estru_professor e_professor[
 void disciplina(estru_aluno e_aluno[], int qtdAluno, estru_professor e_professor[], int qtdProfessor, estru_disciplina e_disciplina[], int qtdDisciplina, int cont_alu_disc)
 {
   int opcao_3;
+  printf("Projeto Escola Hildete");
   printf("\nDigite a opção que deseja realizar:\n");
   printf("1 - Incluir disciplina\n2 - Excluir disciplina\n3 - Atualizar dados de disciplina\n4 - Inserir aluno em disciplina\n5 - Excluir aluno de disciplina\n6 - Voltar\n");
   scanf("%d", &opcao_3);
