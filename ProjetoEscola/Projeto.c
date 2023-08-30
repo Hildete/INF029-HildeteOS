@@ -775,7 +775,7 @@ void alu_prof_disci(estru_aluno e_aluno[], int qtdAluno, estru_professor e_profe
   int opcao;
   printf("Projeto Escola Hildete");
   printf("\nDigite a opção que deseja realizar:\n");
-  printf("1 - Adicionar/Modificar/Excluir - Aluno\n2 - Adicionar/Modificar/Excluir - Professor\n3 - Adicionar/Modificar/Excluir - Disciplina\n4 - Gerar Relatórios\n5 - Sair\n");
+  printf("1 - Menu Aluno\n2 - Menu Professor\n3 - Menu Disciplina\n4 - Gerar Relatórios\n5 - Sair\n");
   scanf("%d", &opcao);
   
   if (opcao == 1)
