@@ -63,6 +63,7 @@ void aluno(estru_aluno e_aluno[], int qtdAluno, estru_professor e_professor[], i
 {
   int opcao_1;
   printf("Projeto Escola Hildete");
+  printf("Menu principal");
   printf("\nDigite a opção que deseja realizar:\n");
   printf("1 - Incluir aluno\n2 - Excluir aluno\n3 - Atualizar dados de aluno\n4 - Voltar\n");
   scanf("%d", &opcao_1);
@@ -645,6 +646,7 @@ void exclu_alu_discip(estru_aluno e_aluno[], int qtdAluno, estru_professor e_pro
 void relatorios(estru_aluno e_aluno[], int qtdAluno, estru_professor e_professor[], int qtdProfessor, estru_disciplina e_disciplina[], int qtdDisciplina, int cont_alu_disc)
 {
   int opcao_relat;
+  printf("Projeto Escola Hildete");
   printf("\nInforme o relatório que deseja gerar:\n");
   printf("1 - Listar alunos\n2 - Listar professores\n3 - Listar disciplinas(dados das disciplinas sem os alunos)\n4 - Listar uma disciplina(dados da disciplina e os alunos matriculados\n5 - Listar alunos por sexo(F/M)\n6 - Listar alunos ordenados por nome\n7 - Listar alunos ordenados por data de nascimento\n8 - Listar professores por sexo(F/M)\n9 - Listar professores ordenados por nome\n10 - Listar professores ordenados por data de nascimento\n11 - Voltar\n");
   scanf("%d", &opcao_relat);
@@ -771,6 +773,7 @@ void lista_aluno(estru_aluno e_aluno[], int qtdAluno, estru_professor e_professo
 void alu_prof_disci(estru_aluno e_aluno[], int qtdAluno, estru_professor e_professor[], int qtdProfessor, estru_disciplina e_disciplina[], int qtdDisciplina, int cont_alu_disc)
 {
   int opcao;
+  printf("Projeto Escola Hildete");
   printf("\nDigite a opção que deseja realizar:\n");
   printf("1 - Adicionar/Modificar/Excluir - Aluno\n2 - Adicionar/Modificar/Excluir - Professor\n3 - Adicionar/Modificar/Excluir - Disciplina\n4 - Gerar Relatórios\n5 - Sair\n");
   scanf("%d", &opcao);
