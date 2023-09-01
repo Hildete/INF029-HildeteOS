@@ -62,9 +62,8 @@ estru_disciplina;
 void aluno(estru_aluno e_aluno[], int qtdAluno, estru_professor e_professor[], int qtdProfessor, estru_disciplina e_disciplina[], int qtdDisciplina, int cont_alu_disc)
 {
   int opcao_1;
-  printf("Projeto Escola Hildete");
-  printf("Menu principal");
-  printf("\nDigite a opção que deseja realizar:\n");
+  printf("Projeto Escola Hildete\n");
+  printf("Digite a opção que deseja realizar:\n");
   printf("1 - Incluir aluno\n2 - Excluir aluno\n3 - Atualizar dados de aluno\n4 - Voltar\n");
   scanf("%d", &opcao_1);
   if (opcao_1 == 1)
@@ -121,7 +120,7 @@ void professor(estru_aluno e_aluno[], int qtdAluno, estru_professor e_professor[
 void disciplina(estru_aluno e_aluno[], int qtdAluno, estru_professor e_professor[], int qtdProfessor, estru_disciplina e_disciplina[], int qtdDisciplina, int cont_alu_disc)
 {
   int opcao_3;
-  printf("Projeto Escola Hildete");
+  printf("Projeto Escola Hild4ete");
   printf("\nDigite a opção que deseja realizar:\n");
   printf("1 - Incluir disciplina\n2 - Excluir disciplina\n3 - Atualizar dados de disciplina\n4 - Inserir aluno em disciplina\n5 - Excluir aluno de disciplina\n6 - Voltar\n");
   scanf("%d", &opcao_3);
@@ -774,6 +773,7 @@ void alu_prof_disci(estru_aluno e_aluno[], int qtdAluno, estru_professor e_profe
 {
   int opcao;
   printf("Projeto Escola Hildete");
+  printf("\n***Menu principal***");
   printf("\nDigite a opção que deseja realizar:\n");
   printf("1 - Menu Aluno\n2 - Menu Professor\n3 - Menu Disciplina\n4 - Gerar Relatórios\n5 - Sair\n");
   scanf("%d", &opcao);
