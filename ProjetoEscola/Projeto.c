@@ -58,7 +58,7 @@ typedef struct
 }
 estru_disciplina;
 
-// CHAMAR AS FUNÇÕES DE ADICIONAR MODIFICAR E EXCLUIR
+//ADICIONAR MODIFICAR E EXCLUIR
 void aluno(estru_aluno e_aluno[], int qtdAluno, estru_professor e_professor[], int qtdProfessor, estru_disciplina e_disciplina[], int qtdDisciplina, int cont_alu_disc)
 {
   int opcao_1;
@@ -641,7 +641,7 @@ void exclu_alu_discip(estru_aluno e_aluno[], int qtdAluno, estru_professor e_pro
   disciplina(e_aluno, qtdAluno, e_professor, qtdProfessor, e_disciplina, qtdDisciplina, cont_alu_disc);
 }
 
-// CHAMAR AS LISTAS
+// CLISTAS
 void relatorios(estru_aluno e_aluno[], int qtdAluno, estru_professor e_professor[], int qtdProfessor, estru_disciplina e_disciplina[], int qtdDisciplina, int cont_alu_disc)
 {
   int opcao_relat;
